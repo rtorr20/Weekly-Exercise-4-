@@ -32,3 +32,26 @@ head(bycountry, 10)
 8 Netherlands           28 
 9 Sweden                28 
 10 East Germany          27 
+
+
+byyear <- oly %>%
+  group_by(year) %>%
+  summarise(total_given = sum(total.medals), na.rm = TRUE) %>%
+  arrange(year)
+
+head(byyear, 10)
+
+
+# A tibble: 10 × 3
+# year    total_given na.rm
+1  1980         115 
+2  1984         117 
+3  1988         138 
+4  1992          NA 
+5  1994         183 
+6  1998         205 
+7  2002         234 
+8  2006         252  
+9  2010         258 
+10  2014        295 
+
