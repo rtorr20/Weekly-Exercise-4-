@@ -1,0 +1,19 @@
+---
+title: "Week 4"
+author: "Roxana Torres"
+date: "2025-09-20"
+output: html_document
+---
+
+
+Civic technology is the use of digital tools and platforms that make it easier for people to connect with the government, get information, and take part in decision-making. This can include things like open data portals, apps for reporting local issues, participatory budgeting platforms, or systems that make government actions more transparent. The goal isn’t just to improve efficiency, but also to give citizens more ways to influence policies and keep track of how services are delivered. 
+
+Smart Cities, which use data and technology to manage things like transportation, energy, and public safety, can benefit a lot from civic technology. It gives people a direct way to be part of how their city is run. For example, residents can report problems like potholes or broken streetlights through mobile apps, and governments can respond faster and plan better. Open data systems also let citizens and outside groups track how well services are working, which builds accountability. Civic technology can also make Smart Cities more inclusive, since mobile tools and online platforms can lower barriers to participation, but cities still need to make sure that people without internet access or strong digital skills aren’t left out. 
+For example, in Singapore, the government is building an eco-smart town with features like a centralized cooling system to reduce energy use, electric-vehicle charging hubs, and solar panels integrated into buildings. They have also reduced surface traffic in its town center by sending vehicles underground, which frees up space for walking, cycling, and green zones. Sensors and digital monitoring systems track things like energy consumption, waste, and environmental quality. There are also smart digital services so residents can monitor usage, pay for EV charging, and use sharing systems. These features help the city respond faster to problems, reduce environmental impact, and build trust. But there are challenges, like ensuring everyone can access and use these technologies, protecting personal data, and keeping people engaged long term. Overall, this example shows how civic tech helps make Smart Cities responsive, sustainable, and shaped by the people who live in them.
+
+
+References
+ Lai, O. (2024, March 5). Top 7 Smart Cities in the World in 2024. Earth.Org. https://earth.org/top-7-smart-cities-in-the-world/ Earth.Org
+CNN. (n.d.). Tengah eco-town: Singapore’s next new eco-smart town. CNN Style. https://edition.cnn.com/style/article/singapore-tengah-eco-town/index.html
+
+ 
