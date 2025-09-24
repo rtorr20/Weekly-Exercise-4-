@@ -1,19 +1,25 @@
-#[1] "main"
-DEV
 
-      
-
- main
+main
 library(readr)
 library(dplyr)
 library(ggplot2)
 
+
+# Q4.
+#[1] "main"
+
+# Q.5. DEV
+
+# Q.6
 DEV
 Olympics <- read_csv("Olympics.csv")
+
+#a
 
 oly <- Olympics %>%
   mutate(total.medals = gold + silver + bronze)
 
+#b
 
 bycountry <- oly %>%
   group_by(country) %>%
@@ -37,6 +43,7 @@ head(bycountry, 10)
 9 Sweden                28 
 10 East Germany          27 
 
+#c
 
 byyear <- oly %>%
   group_by(year) %>%
@@ -62,6 +69,10 @@ head(byyear, 10)
 olymp <- read_csv("Olympics.csv")
 
 
+# Q.7
+
+#a
+
 largest1992 <- olymp %>%
   filter(year == 1992) %>%
   select(country, athletes) %>%
@@ -83,7 +94,7 @@ print(largest1992)
 10 Sweden                             73
 
 
-
+#b
 
 count_5 <- c("United States", "France", "Germany", "Russia", "China")
 
@@ -107,4 +118,5 @@ ggplot(gold_times, aes(x = year, y = gold, color = country, group = country)) +
 
 
 main
+
 
